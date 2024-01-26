@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-content::-webkit-scrollbar {
+  width: 5px; /* Adjust the width of the scrollbar as needed */
+  padding: 2px;
+  background-color: transparent; /* Make the scrollbar track transparent */
+  border-radius: 10px;
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.048
+  ); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the thumb */
+}
+
+.scroll-content:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.134);
+}
