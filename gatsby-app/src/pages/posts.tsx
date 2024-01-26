@@ -15,5 +15,6 @@ const PostsPage = () => {
     </div>
   );
 };
+
 export default PostsPage;
 export const Head: HeadFC = () => <title>Abhi's Blog</title>;
